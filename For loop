@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	for(var a = 1; a<=10; a++){
+		document.write(a +") Hello Ram<br>")
+	}
+</script>
+</body>
+</html>
