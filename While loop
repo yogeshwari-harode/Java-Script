@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+var a = 1;
+	/*document.write("<ul>")
+	while(a <= 10){
+	document.write("<li> Hello Javascript</li>");
+	a++;
+	}
+	document.write("</ul>")
+*/
+while(a <= 10){
+	document.write(a + ") Hello Javascript</br>");
+	a++;
+	}
+</script>
+</body>
+</html>
