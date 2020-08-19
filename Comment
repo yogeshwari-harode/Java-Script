@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	//this is our single line Comment
+
+	/* This is
+	     our 
+	   multiple 
+	  line comment
+	*/
+</script>
+</body>
+</html>
