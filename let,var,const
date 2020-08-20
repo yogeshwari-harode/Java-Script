@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	var Name = "Ram";
+	var Name = "Shyam<br>";
+	document.write(Name);
+
+	let firstName = "Radha";
+	firstName = "Monika";
+	document.write(firstName);
+
+	// if you declare var two times it does not show any error 
+	// But let is not declared again otherwise it shows error
+	
+	//constant variable
+	const myName = "Mona<br>";
+	document.write(myName);
+	//we can not assign the new value to const
+</script>
+</body>
+</html>
