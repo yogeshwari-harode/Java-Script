@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	var Name = "Mira";
+	document.write("Hello " + Name);
+</script>
+</body>
+</html>
