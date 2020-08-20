@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	var a = 5;
+	//you can also write this
+	//a = a * 4;
+	a *= 4;
+	document.write(a);
+</script>
+</body>
+</html>
