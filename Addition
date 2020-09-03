@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	var a = 2;
+	//you can also write this
+	//a = a+8;
+	a += 8;
+	document.write(a);
+</script>
+</body>
+</html>
