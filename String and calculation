@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	document.write("3 + 7<br>");
+	document.write(3 + 7);
+</script>
+</body>
+</html>
