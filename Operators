@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>javascript</title>
+</head>
+<body>
+<script>
+  var a = 15;
+  var b = 8;
+  var c = 16;
+  var d = 2;
+  a += 2;
+  b -= 5;
+  c %= 4;
+  d *= 2;
+  document.write(a);
+  document.write("<br>");
+   document.write(b);
+   document.write("<br>");
+    document.write(c);
+    document.write("<br>");
+     document.write(d);
+     document.write("<br>");
+</script>
+</body>
+</html>
