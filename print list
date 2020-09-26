@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script>
+	var Name = {
+		firstName : "Hena",
+		lastName :"Khan",
+		Age :25
+	};
+
+	for(var i in Name){
+		document.write(i + ":" + Name[i] + "<br>");
+	}
+</script>
+</body>
+</html>
