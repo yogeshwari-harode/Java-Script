@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+
+<script>
+	var n = 5;
+	var square_of_n= square(n);
+	document.write(square_of_n);
+	
+	function square(num)
+	{
+		var ans = num * num;
+		return ans;
+	}
+	
+
+</script>
+
+</body>
+</html>
