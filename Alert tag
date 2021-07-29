@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<button type="button" onclick='alert("Hello!")'>Click here</button>
+<script></script>
+
+</body>
+</html>
