@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>javascript</title>
+	<title>Javascript</title>
 </head>
 <body>
-<script>
-	//this is our single line Comment
 
-	/* This is
-	     our 
-	   multiple 
-	  line comment
-	*/
-</script>
+	<script>
+		
+		
+		document.write("<h1> This is single line comment   <code> <br>  //</code>   </h1>");
+
+		document.write("<h1> This is multi line comment  <code> <br>  /*.......*/ </code></h1>");
+		
+	</script>
+
 </body>
 </html>
