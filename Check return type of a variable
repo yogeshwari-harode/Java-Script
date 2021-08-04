@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var var1=10;
+	var var2='a';
+	var var3="Hello";
+	var var4=["HTML" , "CSS" , "Javascript"];
+	var var5={firstName:"John",lastName:"Doe"};
+	var var6=true;
+	var var7=function () {};
+	var var8;
+
+	document.write("<b>" + var1+ "</b><br>");
+	document.write(typeof var1 + "<br>");
+	document.write("<b>" + var2+ "</b><br>");
+	document.write(typeof var2 + "<br>");
+	document.write("<b>" + var3+ "</b><br>");
+	document.write(typeof var3 + "<br>");
+	document.write("<b>" + var4+ "</b><br>");
+	document.write(typeof var4 + "<br>");
+	document.write("<b>" + var5+ "</b><br>");
+	document.write(typeof var5 + "<br>");
+	document.write("<b>" + var6+ "</b><br>");
+	document.write(typeof var6 + "<br>");
+	document.write("<b>" + var7+ "</b><br>");
+	document.write(typeof var7 + "<br>");
+	document.write("<b>" + var8+ "</b><br>");
+	document.write(typeof var8 + "<br>");
+	
+</script>
+
+</body>
+</html>
