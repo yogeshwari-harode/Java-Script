@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var arr=[10,20,30,40,50];
+	var sum=0;
+
+	for(var i=0 ; i<5 ; i++)
+	{
+		document.write("arr["+ i + "] : " + arr[i] + "<br>");
+		sum = sum + arr[i];
+	} 
+	document.write("Sum of array elements : " + sum);
+
+</script>
+
+</body>
+</html>
