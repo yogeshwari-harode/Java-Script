@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+
+	var arr = ["Tom","Harry","Jam"];
+	document.write(arr + "<br>");
+	arr.sort();
+	document.write(arr + "<br>");
+		
+
+</script>
+
+
+</body>
+</html>
