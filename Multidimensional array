@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var arr=[
+		["Harry","20","Male","vaccinated"],
+		["Tom","18","Male","vaccinated"],
+		["John","21","Male","vaccinated"],
+		["Sonu","19","Male","vaccinated"]
+	]
+
+
+	document.write(arr.length + "<br>");
+	for(var i=0 ; i<arr.length ; i++)
+	{
+		for(var j=0 ; j<arr[i].length ; j++)
+		{
+			document.write(arr[i][j] + " ");
+		}
+		document.write("<br>");
+	}
+
+	// Table creation in multidimensional array
+	
+
+	document.write("<br>");
+	document.write("<table border = '2px' cellspacing='0'>")
+	for(var i=0 ; i<arr.length  ; i++)
+	{
+		document.write("<tr>");
+		for(var j=0 ; j<arr.length  ; j++)
+		{
+			document.write("<td>" + arr[i][j] + "</td>");
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>")
+
+</script>
+
+</body>
+</html>
