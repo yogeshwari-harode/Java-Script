@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var arr = ["Tom","18","vaccinated"];
+	document.write(arr + "<br>");
+	arr[0]="Harry";
+	document.write(arr + "<br>");
+	delete arr[0];
+	document.write(arr + "<br>");
+</script>
+
+</body>
+</html>
