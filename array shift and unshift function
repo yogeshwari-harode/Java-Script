@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+
+	var arr = ["Tom","Harry","Jam"];
+	document.write(arr + "<br>");
+	arr.unshift("Rahul");	//	It add a value to the first index of the array
+	document.write(arr + "<br>");
+	arr.shift();	//	It delete the first element of the array
+	document.write(arr + "<br>");
+		
+
+</script>
+
+
+</body>
+</html>
