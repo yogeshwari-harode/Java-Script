@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+
+	// for concat two or more arrays
+	var a = ["Tom","Harry","Jam"];
+	var b = a.concat("Aman","Karan");
+	document.write("<h1>For concat 2 array </h1>" + b + "<br>");
+		
+	var x = ["Tom","Harry","Jam"];
+	var y = ["Neha","Shraddha","Deepa"];
+	var z = ["Ram","Shyam","Harish"];
+	var ans =x.concat(y,z);
+	document.write("<h1>For concat 3 array </h1>" + ans + "<br>");
+	
+
+	//	join() in the arrays
+	var arr1 = ["Ram","Shyam","Seeta","Geeta"];
+	var s = arr1.join(" / ");
+	document.write("<h1> join()</h1><br>" + s);
+
+</script>
+
+</body>
+</html>
