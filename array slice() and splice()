@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a=["Ram","Shyam","Radha","Rahul","Neha"];
+	document.write(a + "<br><br><h1>Slice()</h1>")
+
+	//slice() is used to print the array from the point to point given by us 
+	var b = a.slice(1,4);
+	document.write(b + "<br><br>")
+
+	var c = a.slice(1);
+	document.write(c + "<br><br>")
+
+	var c = a.slice(-2);
+	document.write(c + "<br><br>")
+
+	//Splice()   -   delete or add element
+	//Syntax : variable.splice(index , howmany delete , "new value")
+
+	document.write("<h1>Splice()</h1>");
+	var x=["Ram","Shyam","Radha","Rahul","Neha"];
+	document.write(x + "<br><br>");
+	x.splice(2,1,"Karan","Aditi"); 	
+	document.write(x + "<br><br>");
+
+
+</script>
+
+</body>
+</html>
