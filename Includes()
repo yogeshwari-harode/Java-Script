@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<script>
+	
+	document.write("<h1>includes()</h1>");
+	var a = ["Sanjay","Aman","Salman","Aman","Radha"];
+	document.write(a + "<br><br>");
+
+	var b=a.includes("Radha");
+	document.write(b + "<br><br>");
+
+
+</script>
+
+</body>
+</html>
