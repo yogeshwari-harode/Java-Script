@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a=["Ram","Shyam","Seeta","Geeta"];
+	document.write(a+ "<br><br>");
+
+	var x=10;
+
+	var b = Array.isArray(a);
+	document.write(b + "<br><br>");
+
+	if(Array.isArray(a)){
+		document.write("This is an array");
+	}
+	else{
+		document.write("This is not an array");
+	}
+
+</script>
+
+</body>
+</html>
