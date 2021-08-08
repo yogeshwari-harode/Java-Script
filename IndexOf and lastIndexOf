@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<script>
+	
+	document.write("<h1>indexOf </h1>");
+	var a = ["Sanjay","Aman","Salman","Aman","Radha"];
+	document.write(a + "<br><br>");
+
+	var b =a.indexOf("Aman");
+	document.write(b + "<br><br>");
+
+	var c =a.indexOf("Aman",2);
+	document.write(c + "<br><br>");
+
+	var d =a.indexOf("Neha",2);
+	document.write(d + "<br><br>");
+
+	document.write("<h1>lastIndexOf </h1>");	//search element by last index
+
+	var x = a.lastIndexOf("Aman");
+	document.write(x + "<br><br>");
+
+
+</script>
+
+</body>
+</html>
