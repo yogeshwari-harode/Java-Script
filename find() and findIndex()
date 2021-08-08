@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<script>
+	
+	document.write("<h1>find()</h1>");
+	//return actual value	
+
+	var ages = [10,23,12,19,20];
+	document.write(ages + "<br><br>");
+
+	var b=ages.find(checkAdult);
+	document.write(b + "<br><br>");
+
+
+	function checkAdult(age){
+		return age >=18 ;
+	}
+
+	
+	document.write("<h1>findIndex()</h1>");	
+	//return index of actual value	
+
+	var ages1 = [10,13,12,19,20];
+	document.write(ages1 + "<br><br>");
+
+	var b1=ages1.findIndex(checkAdult);
+	document.write(b1 + "<br><br>");
+
+
+
+</script>
+
+</body>
+</html>
