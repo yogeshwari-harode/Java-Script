@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<script>
+	
+	document.write("<h1>Some()</h1>");
+	//For some value it should be true
+
+	var ages = [10,13,12,19,20];
+	document.write(ages + "<br><br>");
+
+	var b=ages.some(checkAdult);
+	document.write(b + "<br><br>");
+
+	function checkAdult(age){
+		return age >=18 ;
+	}
+
+	document.write("<h1>Every()</h1>");	
+	//For every value it should be true
+
+	var ages1 = [10,13,12,19,20];
+	document.write(ages1 + "<br><br>");
+
+	var b1=ages1.every(checkAdult1);
+	document.write(b1 + "<br><br>");
+
+	function checkAdult1(age){
+		return age >=10 ;
+	}
+
+
+
+</script>
+
+</body>
+</html>
