@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<style>
+		
+		#outer{
+			width: 400px;
+			height: 400px;
+			margin: 0 auto;
+			background-color:#e74c3c ;
+		}
+		#inner{
+			width: 200px;
+			height: 200px;
+			margin: 100px auto 0;
+			background-color:#2ecc71; 
+		}
+
+	</style>
+</head>
+<body>
+
+
+	
+
+	<div id="outer">
+		<h2>Outer</h2>
+		<div id="inner">
+			<h2>Inner</h2>
+		</div>
+	</div>
+
+<script>
+	
+	/*
+			document.querySelector("#...").addEventListener("click",functionName,Use Capture);
+	*/
+
+	document.querySelector("#inner").addEventListener("click",function(){
+		alert("Inner Div");
+	},true);
+
+	document.querySelector("#outer").addEventListener("click",function(){
+		alert("Outer Div");
+	},true);
+
+</script>
+
+
+</body>
+</html>
