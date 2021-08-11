@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#header{
+			padding: 15px;
+			background-color: orange;
+		}
+		#header1{
+			padding: 15px;
+			background-color: orange;
+		}
+		#header2{
+			padding: 15px;
+			background-color: #1B9CFC;
+		}
+		
+	</style>
+</head>
+<body>
+
+
+<div>
+<br>
+	<center><h1>onclick Event</h1></center>
+
+	<br><br><br>
+		<div id="header">
+			<h2>onclick = functionName</h2><i>Click me</i>
+		</div>
+
+	<br>
+
+		<div id="header1">
+			<h2>addEventListener("click",functionName)</h2><i>Click me</i>
+			<!--
+				in addEventListener we needn't write on before the event
+			-->
+		</div>
+
+	<br>
+
+		<div id="header2">
+			<h2>onclick</h2><i>Click me</i>
+			<!--
+				in addEventListener we needn't write on before the event
+			-->
+		</div>
+	
+</div>
+
+<script>
+	
+	document.getElementById("header").onclick = abc;
+
+	document.getElementById("header1").addEventListener("click" , abc1);
+
+	document.getElementById("header2").addEventListener("click" , abc2);
+	document.getElementById("header2").addEventListener("click", function(){
+		this.style.border = "5px dashed #1e3799";
+	});
+
+
+
+	function abc(){
+		document.getElementById("header").style.background = "green";
+	}
+
+	function abc1(){
+		document.getElementById("header1").style.background = "green";
+	}
+
+
+	function abc2(){
+		document.getElementById("header2").style.background = "#e84118";
+
+	}
+
+</script>
+
+</body>
+</html>
