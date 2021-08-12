@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	document.write("<h1>forEach()</h1>");
+	var a = ["Rahul","Karan","Radha","Aditi"];
+	a.forEach(loop);
+
+	function loop(value , index){
+		document.write(index + " : " +value + "<br>");
+	}
+
+</script>
+
+</body>
+</html>
