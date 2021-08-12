@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	document.write("<h1>toString()</h1>");
+	
+	var a = ["Rahul","Karan","Radha","Aditi"];
+	a.toString();
+
+	document.write(a + "<br><br>");
+
+	document.write("<h1>valueOf()</h1>");
+	//print the array normally
+	document.write(a.valueOf() + "<br><br>");
+
+
+	document.write("<h1>fill()</h1>");
+	var b = ["Rahul","Karan","Radha","Aditi"];
+	
+	b.fill("Ram");
+	document.write(b + "<br><br>");
+
+</script>
+
+</body>
+</html>
