@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<script>
+	
+	
+	var a = {
+			fname : 'Ram',
+			lname : 'Kumar',
+			age : 25,
+			email :'hello@gmail.com',
+			favMovies : ["Dhoom","Avengers"],
+			living : {
+				city : 'Chandigarh',
+				country : 'India'
+			},
+			salary : function(){
+				return 25000;
+			},
+			fullname : function(){
+				return this.fname + " " + this.lname;
+				//for the owner of fname i.e. a we use this
+			}
+	}
+	document.write(a.favMovies + "<br>");
+	document.write(a.favMovies[2] + "<br>");
+	document.write(a.fname + "<br>");	
+	document.write(a.email + "<br>");
+	document.write(a.fullname() + "<br>");
+	document.write(a.living.city );
+
+
+</script>
+
+</body>
+</html>
