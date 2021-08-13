@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var person = new Object();
+
+	person.firstName = 'Ram';
+	person.lastName  = 'Kumar';
+	person.age = 25;
+	document.write(person + "<br>");
+	document.write(person.firstName + "<br>");
+	document.write(person['firstName']);
+
+</script>
+
+</body>
+</html>
