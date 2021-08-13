@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var student = [
+
+				{name : 'Ram', age: 15},
+				{name : 'Karan', age : 13},
+				{name : 'Radha', age: 14}
+
+				];
+
+				for(var i=0 ; i<student.length ; i++){
+					document.write(student[i].name + " " + student[i].age + "<br>");
+				}
+
+</script>
+
+</body>
+</html>
