@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+	<script>
+	
+		var obj = {
+			firstName : "Ram",
+			lastName : "Kumar",
+			age : 18,
+			country : "India"
+		};
+
+		for(var key in obj){
+			document.write(key + " : " +obj[key] + "<br>");
+		}
+
+	</script>
+
+</body>
+</html>
