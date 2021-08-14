@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+	<script>
+		
+		var arr = [1,2,3,4,5];
+		//[10,20,30,40,50]
+		var b = arr.map(test1);
+		document.write(b + "<br>");
+
+		function test1(x){
+			return x * 10;
+		}
+
+
+		var ary1 = [
+				{fname : "Rahul" , lname : "Singh"},
+				{fname : "Ram" , lname : "Kumar"},
+				{fname : "Dheeraj" , lname : "Patel"},
+				]
+
+				var ary2 = ary1.map(test2);
+				document.write(ary2);
+
+				function test2(x){
+					return x.fname + " " + x.lname ;
+				}
+
+	</script>
+
+</body>
+</html>
