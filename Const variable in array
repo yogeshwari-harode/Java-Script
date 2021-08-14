@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+	<script>
+		
+		const a=[10,20,30,40,50];
+		document.write(a + "<br>");
+		a[0]=15;
+		a[1]=25;
+		a[2]=35;
+			//we can change any one index value of array or object at a time if you change the whole const array or object it will show an error in console
+		document.write(a + "<br>");
+
+		const b={
+			name : 'Ram',
+			 age :  25
+		};
+
+		b.name = "Radha";
+		document.write(b.name + "<br>");
+
+	</script>
+
+</body>
+</html>
