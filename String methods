@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+	<script>
+		
+		var str = "Javascript is a Great is Language";
+		
+		document.write(str.length + "<br>");
+		document.write(str.toLowerCase() + "<br>");
+		document.write(str.toUpperCase() + "<br>");
+		document.write(str.includes("Javascript") + "<br>");
+		document.write(str.startsWith("Javascript") + "<br>");
+		document.write(str.endsWith("Language") + "<br>");
+		var a = str.search("is");     //11
+		//search return the positionof the word
+		document.write(a + "<br>");
+		var b = str.search("bad");    //-1
+		document.write(b + "<br>");
+		
+		
+		document.write(str.match(/is/g) + "<br>");   //is,is
+		//match search the word again and again and collect the index and make an array   
+
+		document.write(str.indexOf("is") + "<br>");	 //11
+		document.write(str.lastIndexOf("is") + "<br>");  //22
+		document.write(str.replace("Javascript","PHP") + "<br>");							
+		// PHP is a Great is Language
+		document.write(str.replace(/is/g,"are") + "<br>");
+		//Javascript are a Great are Language
+
+
+		
+		document.write(str.charAt(3) + "<br>");
+		document.write(str.charAt(300) + "<br>");
+		document.write(str.charCodeAt(1) + "<br>");
+		document.write(String.fromCharCode(64) + "<br>");
+
+		var str1=" Hello ! ";
+		var str2 = "Javascript";
+		document.write(str.concat(str1,str2) + "<br>");
+		document.write(str.split(" ") + "<br>");
+
+
+		document.write(str.repeat(2) + "<br>");
+		document.write(str.slice(4) + "<br>");
+		document.write(str.slice(3,10) + "<br>");
+		document.write(str.slice(-2) + "<br>");
+		
+		document.write(str.substr(2) + "<br>");
+		//same as slice
+		document.write(str.substr(3,5) + "<br>");
+		document.write(str.substring(3,5) + "<br>"); //till 9 
+		
+
+		var str5=50;
+		
+		document.write(str5.toString() + 20 +  "<br>");
+
+
+		document.write(str.valueOf() + "<br>");
+		//document.write(str.trim() + "<br>");
+		//document.write(str.trim() + "<br>");
+		//document.write(str.trim() + "<br>");
+		//document.write(str.trim() + "<br>");
+		//document.write(str.trim() + "<br>");
+		//document.write(str.trim() + "<br>");
+
+	</script>
+
+</body>
+</html>
