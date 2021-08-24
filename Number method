@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+	<script>
+		
+		var a ="99";
+		var num = Number(a);
+		document.write(num + "<br>");
+
+
+		var a ="99 88";
+		var num = Number(a);	//NaN = not a number
+		document.write(num + "<br>");
+
+
+		var a =true;
+		var num = Number(a);
+		document.write(num + "<br>");
+
+
+		var a = 99.80;
+		document.write(parseInt(a) + "<br>");
+
+		var a=13.33;
+		document.write(parseFloat(a) + "<br>");
+
+		var num6=100;
+		document.write(Number.isFinite(num6) + "<br>");
+
+		var num7=10.50;
+		document.write(Number.isInteger(num7) + "<br>");
+
+
+		var num8=5.9867;
+		document.write(num8.toFixed(2) + "<br>");
+
+			
+		var num9=5.9867;
+		document.write(num9.toPrecision(2) + "<br>");
+
+	</script>
+
+</body>
+</html>
