@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.ceil(5.2);
+	document.write(a + "<br>");
+	var b = Math.ceil(-5.2);
+	document.write(b + "<br>");
+
+	var c = Math.floor(2.45);
+	document.write(c + "<br>");
+	var d = Math.floor(-2.45);
+	document.write(d + "<br>");
+
+</script>
+
+</body>
+</html>
