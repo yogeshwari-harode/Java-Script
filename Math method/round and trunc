@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.round(0.62);
+	document.write(a + "<br>");
+	var b = Math.round(6.2);
+	document.write(b + "<br>");
+
+	var c = Math.trunc(2.45);
+	document.write(c + "<br>");
+	
+</script>
+
+</body>
+</html>
