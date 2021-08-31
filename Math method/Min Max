@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.max(10,50,5,9,30,20);
+	document.write(a + "<br>");
+	var b = Math.min(10,50,5,9,30,20);
+	document.write(b + "<br>");
+
+	
+</script>
+
+</body>
+</html>
