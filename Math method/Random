@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.random();
+	document.write(a + "<br>");
+	var b = Math.floor(Math.random() * 10) + 1;
+	document.write(b + "<br>");	
+
+</script>
+
+</body>
+</html>
