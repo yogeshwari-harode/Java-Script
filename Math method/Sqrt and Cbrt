@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.sqrt(64);
+	document.write(a + "<br>");
+	var b = Math.cbrt(27);
+	document.write(b + "<br>");
+
+</script>
+
+</body>
+</html>
