@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var a = Math.PI;
+	document.write(a + "<br>");
+	
+</script>
+
+</body>
+</html>
