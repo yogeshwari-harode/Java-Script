@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var now = new Date();
+	document.write(now.getFullYear() + "<br>");
+	
+	var n = new Date('January 5 2010');
+	document.write(n.getFullYear() + "<br>");
+	
+</script>
+
+</body>
+</html>
