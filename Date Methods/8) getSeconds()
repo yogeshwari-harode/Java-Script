@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var now = new Date();
+	document.write(now.getSeconds() + "<br>");
+	
+</script>
+
+</body>
+</html>
