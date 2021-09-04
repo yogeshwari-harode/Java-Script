@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<script>
+	
+	var now = new Date();
+	now.setFullYear(2022);
+	document.write(now + "<br>");
+
+</script>
+
+</body>
+</html>
