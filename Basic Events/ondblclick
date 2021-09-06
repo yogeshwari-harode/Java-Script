@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+
+<button id="btn" ondblclick="Ondoubleclick()">Double click on me</button>
+
+
+<script>
+	
+	function Ondoubleclick(){
+		document.getElementById("btn").innerHTML = "The new Text is Printed";
+	}
+
+</script>
+
+</body>
+</html>
