@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<marquee onmouseout="stop()">Onmouseout</marquee>
+
+</body>
+</html>
