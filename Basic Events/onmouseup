@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+<p id="btn" onmouseup="myFun()">Click me to see the onmouseup event</p>
+
+<script>
+	
+	//Execute a JavaScript when releasing a mouse button over a paragraph:
+	function myFun(){
+		document.getElementById("btn").innerHTML = "Execute a JavaScript when releasing a mouse button over a paragraph:";
+	}
+
+</script>
+
+</body>
+</html>
