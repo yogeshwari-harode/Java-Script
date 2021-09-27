@@ -8,44 +8,55 @@
 			padding: 0;
 		}
 		#header{
-			color: #fff;
-			margin-top: 50px;
-			padding: 20px;
+			padding: 15px;
+			background-color: orange;
+		}
+		#header1{
+			padding: 15px;
+			background-color: orange;
+		}
+		#header2{
+			padding: 15px;
+			background-color: #1B9CFC;
 		}
 		
-		.abc{
-			background-color: crimson;
-		}
-		.xyz{
-			background-color: #0097e6;
-		}
 	</style>
 </head>
 <body>
 
 
 <div>
+<br>
+	<center><h1>removeEventListener</h1></center>
 
-	<center><h1>classList</h1></center>
+	<br><br><br>
+		<div id="header">
+			<h2>onclick = functionName</h2><i>Click me</i>
+		</div>
 
-	<div id="header" class="abc xyz efg">
-		<h1>classList</h1>
-	</div>
+	<br>
 
+		
+	
 </div>
 
 <script>
 	
-	document.getElementById("header").addEventListener("click",abc);
 
-	
+	document.getElementById("header").addEventListener("mouseleave" , abc);
+	document.getElementById("header").addEventListener("click" , xyz);
+
+
 	function abc(){
-		document.getElementById("header").classList.remove("xyz");
-		var a = document.getElementById("header").classList;
-		console.log(a);
-		//it add one class of the header
+		document.getElementById("header").removeEventListener("mouseenter" , abc);
 	}
 
+	function xyz(){
+		
+		document.getElementById("header").style.background = "green";
+		//document.getElementById("header").style.background = "yellow";
+	}
+	
 
 </script>
 
