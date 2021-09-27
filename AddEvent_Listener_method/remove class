@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#header{
+			color: #fff;
+			margin-top: 50px;
+			padding: 20px;
+		}
+		
+		.abc{
+			background-color: crimson;
+		}
+		.xyz{
+			background-color: #0097e6;
+		}
+	</style>
+</head>
+<body>
+
+
+<div>
+
+	<center><h1>classList</h1></center>
+
+	<div id="header" class="abc xyz efg">
+		<h1>classList</h1>
+	</div>
+
+</div>
+
+<script>
+	
+	document.getElementById("header").addEventListener("click",abc);
+
+	
+	function abc(){
+		document.getElementById("header").classList.remove("xyz");
+		var a = document.getElementById("header").classList;
+		console.log(a);
+		//it add one class of the header
+	}
+
+
+</script>
+
+</body>
+</html>
